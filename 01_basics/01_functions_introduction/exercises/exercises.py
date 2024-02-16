@@ -115,3 +115,40 @@ def maximum(a, b, c):
 def is_leap_year(year):
     return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
 # Define a function to check if a number is prime.
+
+
+
+# convert celcius to fahrenheit
+def celsius_to_fahrenheit(celsius):
+    return celsius * 9/5 + 32
+
+# convert fahrenheit to celsius
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
+
+# check if  temp is freezing hot or warm
+def temp(temp):
+    if temp < 0:
+        return "Freezing"
+    elif temp > 0 and temp <= 20:
+        return "Cold"
+    elif temp > 20 and temp <= 30:
+        return "Warm"
+    else:
+        return "Hot"
+    
+#  switch case example in python
+    
+def switch_case(day):
+    switcher = {
+        1: "Monday",
+        2: "Tuesday",
+        3: "Wednesday",
+        4: "Thursday",
+        5: "Friday",
+        6: "Saturday",
+        7: "Sunday"
+    }
+    return switcher.get(day, "Invalid day of the week")
+
+
