@@ -1,0 +1,54 @@
+Slide 1: How the Internet Works
+
+Overview:
+The internet is a global network of interconnected devices that communicate via standardized protocols.
+It enables the exchange of data, information, and services across the world.
+Slide 2: Components of the Internet
+
+Devices:
+
+Include computers, servers, routers, switches, and other network-enabled devices.
+Connected via wired or wireless connections.
+Protocols:
+
+TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational protocol suite.
+Facilitates data transmission, addressing, and routing.
+Slide 3: Data Transmission
+
+Packets:
+
+Data is broken down into smaller packets for transmission.
+Each packet contains sender and receiver information, as well as the actual data.
+Routing:
+
+Routers direct packets across networks to their destination.
+Routes are determined based on routing tables and protocols.
+Slide 4: Accessing Websites
+
+Domain Names:
+
+Human-readable labels for websites (e.g., www.example.com).
+Translated to IP addresses via DNS (Domain Name System).
+HTTP/HTTPS:
+
+Hypertext Transfer Protocol (HTTP) and Hypertext Transfer Protocol Secure (HTTPS) are used for accessing web pages.
+HTTP for standard communication, HTTPS for secure communication (encrypted).
+Slide 5: Internet Service Providers (ISPs)
+
+Role of ISPs:
+
+Provide access to the internet through various technologies (e.g., DSL, cable, fiber).
+Connect users to the global network infrastructure.
+Bandwidth:
+
+Determines the speed and capacity of internet connections.
+Measured in bits per second (bps), kilobits per second (kbps), or megabits per second (Mbps).
+Slide 6: Conclusion
+
+Key Points:
+
+The internet relies on interconnected devices, protocols, and infrastructure to enable communication and data exchange.
+Understanding how the internet works is essential for navigating the digital world effectively.
+Future Trends:
+
+Emerging technologies (e.g., IoT, AI, 5G) will continue to shape the internet's evolution and capabilities.
