@@ -15,3 +15,5 @@ example_dictionary.pop("name")
 # Looping through a dictionary
 for key, value in example_dictionary.items():
     print(f"{key}: {value}")
+
+print (example_dictionary)    

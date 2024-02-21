@@ -1,5 +1,4 @@
-# here are all comprehensions in Python:
-# Comprehensions are a feature in Python that allows you to create sequences from other sequences. They provide a more concise and readable way to create sequences. There are four types of comprehensions in Python:
+# Comprehensions are a feature in Python that allows you to create sequences from other sequences. . There are four types of comprehensions in Python:
 #
 # List comprehensions
 # Dictionary comprehensions

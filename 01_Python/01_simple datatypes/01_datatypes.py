@@ -1,67 +1,4 @@
-# # Variables and data types (integers, floats, strings, booleans).
-example_integer = 10
-example_float = 10.5
-example_string = "Hello, World!"
-example_boolean = True
 
-
-# Input and output
-# input()
-input_value = input("Enter a value: ")
-# print()
-print("Hello, World!")
-
-
-# Type conversion
-integer = int(10.5)
-float_number = float(10)
-string = str(10)
-boolean = bool(10)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Functions
-# Creating a function
-def greet(name):
-    return f"Hello, {name}"
-# Calling a function
-greeting = greet("John")
-# Default arguments
-def greet(name="John"):
-    return f"Hello, {name}"
-# Variable-length arguments
-def greet(*names):
-    return f"Hello, {', '.join(names)}"
-# Lambda functions
-greet = lambda name: f"Hello, {name}"
-# Recursion
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
     
 # Classes and objects
 # Creating a class
@@ -96,8 +33,8 @@ value = m.sqrt(25)
 def greet(name):
     return f"Hello, {name}"
 # Using a module
-import mymodule
-greeting = mymodule.greet("John")
+# import mymodule
+# greeting = mymodule.greet("John")
 
 # File handling
 # Opening a file

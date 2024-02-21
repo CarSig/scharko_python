@@ -2,7 +2,7 @@
 # pip install Flask
 
 from flask import Flask,request,session
-# The Flask class is imported from the flask module. An instance of this class will be our WSGI application.
+# The Flask class is imported from the flask module. An instance of this class will be our  application.
 
 # request: The request object is used to access incoming request data.
 # session: The sessions object is used to store information specific to a user from one request to the next.
@@ -25,7 +25,7 @@ def getdata():
         data = request.get_json()
         return data
     else:
-        return request.args.get("name")
+        return 'getting data'
     
 @app.route("/header")
 def header():

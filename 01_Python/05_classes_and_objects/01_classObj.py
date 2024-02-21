@@ -8,8 +8,11 @@ class Person:
     def greet(self):
         return f"Hello, {self.name}"
 # Creating an object
-person = Person("John", 25)
+personJohn = Person("John", 25)
 # Accessing attributes
-name = person.name
+name = personJohn.name
 # Calling methods
-greeting = person.greet()
+greeting = personJohn.greet()
+
+print(greeting)
+
