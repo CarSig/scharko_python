@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block content %} {% for message in get_flashed_messages() %}
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  {{ message }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+{% endfor %} {% if name %}
+<h1>Hello, {{ name }}!</h1>
+
+{% else %}
+<h1>What is your name</h1>
+<!-- form -->
+<form action="/name" method="post">
+  {{form.hidden_tag()}}
+  <p>
+    {{ form.name.label(class='form-label')}}<br />
+    {{ form.name(class='form-control') }}
+  </p>
+  <br />
+  <p>{{ form.submit(class='btn btn-secondary') }}</p>
+
+  {% endif %} {% endblock %}
+</form>

@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %}
+<h1>{{subreddit[0].subreddit[0]}}</h1>
+
+{% for item in subreddit %}
+
+<a href="{{ item.url[0] }}"><h5>{{ item.title[0] }}</h5></a>
+
+<br />
+
+{% endfor %} {% endblock %}
