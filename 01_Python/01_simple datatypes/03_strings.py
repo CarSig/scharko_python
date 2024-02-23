@@ -12,3 +12,9 @@ strip = "   hello   ".strip()
 replace = "hello".replace("h", "j")
 split = "hello,world".split(",")
 join = ",".join(["hello", "world"])
+
+print(join)
+
+# excercise
+original = ['this=', 'is=', 'a=', 'sentence']
+new_must_be = "this is a sentence"

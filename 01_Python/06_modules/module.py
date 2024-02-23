@@ -1,5 +1,7 @@
-from othermodul import color , number as n
+from othermodul import color , number as n, my_function
 import math
+
+
 
 print(color)
 
@@ -16,11 +18,7 @@ print(sqrt)
 power = int(math.pow(n,2))
 print(power)
 
-# # Importing specific functions
-# from math import sqrt
-# # Using specific functions
-# value = sqrt(25)
-
+my_function()
 
 
 

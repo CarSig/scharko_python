@@ -40,3 +40,17 @@ elif temperature < 30:
     print("Normal")
 else:
     print("Hot")        
+
+
+# exercise  - create function that checks type of input and returns the type of input
+
+# def check_type(input):
+#     if type(input) == int:
+#         return "Integer"
+#     elif type(input) == float:
+#         return "Float"
+#     elif type(input) == str:
+#         return "String"
+#     else:
+#         return "Unknown"
+        
