@@ -1,4 +1,4 @@
-# Explain what is python and why it is used for
+
 
 # Python is a high-level programming language that is widely used for general-purpose programming. It is a language that is easy to learn and easy to read.
 
